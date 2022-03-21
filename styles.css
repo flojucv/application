@@ -11,6 +11,25 @@ body{
 }
 
 .liste-signalements{
+    display: flex;
+    flex-direction: column;
     list-style: none;
+}
+
+.liste-signalements li a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     text-decoration: none;
+    color: black;
+    width: 100%;
+}
+
+.problemes{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid;
+    width: 90%;
+
 }
