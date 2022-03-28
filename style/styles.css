@@ -10,6 +10,7 @@ body{
     align-items: center;
     background-color: #3D74BB;
     color: white;
+    font-size: 4vw;
 }
 
 .liste-signalements{
@@ -41,4 +42,27 @@ body{
 
 .icon-hamburger{
     padding: 30px;
+}
+
+.formulaire{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.message-label{
+    font-size: 4vw;
+    margin-right: 70%;
+    background-color: white;
+    transform: translateY(50%);
+    padding: 0 5px;
+}
+
+#text-message{
+    resize: none;
+    width: 90%;
+    font-size: 20px;
 }
