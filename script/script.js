@@ -1,12 +1,4 @@
-const boutons = document.querySelectorAll(".problemes");
-let categorie = "";
-const title_report = "./report".getElementById("report-title");
+urlString = `${document.location.href}`;
+let categorie = urlString.split('?')[1];
 
-
-boutons.forEach(bouton => {
-    function selectCategorie() {
-        categorie = bouton.id;
-        title_report.innerText = `Report | ${categorie}`;
-    }
-    bouton.addEventListener("click", selectCategorie);
-})
+document.title = `Report | ${categorie}`;
