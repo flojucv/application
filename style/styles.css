@@ -64,5 +64,26 @@ body{
 #text-message{
     resize: none;
     width: 90%;
+    padding: 10px;
     font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+    outline: none;
+}
+
+#text-message:focus{
+    border-color: green;
+}
+
+.form{
+    width: 90%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+    outline: none;
+}
+
+.form:focus{
+    border-color: green;
 }
