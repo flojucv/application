@@ -24,5 +24,5 @@ function envoieReport() {
     if(message.value === "") return alert("Vous n'avez pas renseignez de message.");
 }
 
-const buton = document.getElementById("btn-envoyer");
-buton.addEventListener("click", envoieReport);
+const button = document.getElementById("btn-envoyer");
+button.addEventListener("click", envoieReport);
