@@ -13,6 +13,10 @@ body{
     font-size: 4vw;
 }
 
+.titre-header{
+    margin-left: 20px;
+}
+
 .liste-signalements{
     display: flex;
     flex-direction: column;
@@ -44,6 +48,15 @@ body{
     padding: 30px;
 }
 
+.menu-hamburger{
+    height: 100%;
+
+}
+
+.menu-hamburger:hover{
+    background-color: #4389e3;
+}
+
 .formulaire{
     display: flex;
     margin-top: 20px;
@@ -72,7 +85,7 @@ body{
 }
 
 #text-message:focus{
-    border-color: green;
+    border-color: #21d721;
 }
 
 .form{
@@ -85,5 +98,7 @@ body{
 }
 
 .form:focus{
-    border-color: green;
+    border-color: #21d721;
 }
+
+
